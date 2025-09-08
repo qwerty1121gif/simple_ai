@@ -14,7 +14,7 @@ text = [
 
 lable = [1,0,1,0,1,0] # 1 - spam, 0 - not spam
 
-text_train, text_test, y_train, y_test = train_test_split(text, lable, test_size=0.33, random_state=42)
+text_train, text_test, y_train, y_test = train_test_split(text, lable, test_size=0.33, random_state=56)
 
 pipe = make_pipeline(
     CountVectorizer(), 
